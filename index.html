@@ -2,16 +2,117 @@
 <html land="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="TicTacToe" content="width=device-width, initial-scale=1.0" />
+    <meta name="Minesweeper" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
-    <title></title>
+    <title>Minesweeper</title>
 </head>
 <body>
-    <h1>TicTacToe</h1>
-    <div id="board"></div>
-    <p id="status">Player X's turn</p>
-    <button id="reset">Reset Game</button>
+    <header>
+        <h1>Minesweeper</h1>
+        <nav class="nav-bar">
+            <ul class="flex">
+                <!--Will change the board itself-->
+                <li><button>Easy</button></li>
+                <li><button>Normal</button></li>
+                <li><button>Hard</button></li>
+            </ul>
+        </nav>
+    </header>
 
-    <script src="script.js"></script>
+    <!---->
+    <main class="flex">
+        <div id="game-holder">
+            <!--Remove <p> when implementing logic-->
+            <ul class="flex" id="game-nav-bar">
+                <!--Flag Count-->
+                <li id="flags">10</li>
+                <li><button id="reset">Reset Game</button></li>
+                <li id="timer">99</li>
+            </ul>
+            <div class="flex" id="board"><p>THIS IS WHERE MINE SWEEPER WILL BE</p></div>
+            
+        </div>
+        <aside class="flex">
+            <section class="side-bar">
+                <article id="rules content">
+                    <h2>How to play Minesweeper !</h2>
+                    <p>
+                        <br />
+                        1. Select a square on the playing grid<br /><br />
+                        2. An open square with a number in it indicates how<br />many bombs are around that square<br /><br />
+                        4. Deduce where the bombs with the those number<br /><br />
+                        5. Right-click to flag unoponed squared to remember<br />they are bombs<br /><br />
+                        6. Open all the safe squares without finding a bomb
+                    </p>
+                </article>
+                <!--<article id="high-score content">
+                    <h2>HIGH SCORE !</h2>
+                    <p>Time: 000s</p>
+                </article>-->
+            </section>
+        </aside>
+    </main>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <p>dad</p>
+    <!---->
+    <footer>
+        <p>&copy; 2025 Vi's Minesweeper All Rights Reserved.</p>
+    </footer>
+
+<!--uncommment when doing logic for minesweeper-->
+    <!--<script src="script.js"></script>-->
 </body>
 </html>
